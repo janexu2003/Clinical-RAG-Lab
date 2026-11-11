@@ -48,7 +48,7 @@ Each run writes `results/<name>/report.md` (metrics with 95% CIs, failure causes
 | Diagnosis | What happened | Fix (config switch) |
 |---|---|---|
 | `NOT_IN_CORPUS` | No chunk covers the gold page | Data: add the source, fix PDF parsing, or the gold label is wrong |
-| `RECALL_MISS` | No retriever has the gold chunk in its top 200 | Vocabulary mismatch: `query.transforms: [rewrite]`, `[multi_query]` or `[hyde]`; contextual headers; a better or medical embedding model |
+| `RECALL_MISS` | No retriever has the gold chunk in its top 200 | Vocabulary mismatch: `query.transforms: [rewrite]`, `[multi_query]` or `[hyde(Hypothetical Document Embeddings)]`; contextual headers; a better or medical embedding model |
 | `CANDIDATE_MISS` | Some retriever found it, but it was lost in fusion | Add that retriever to the hybrid (`retrievers: [bm25, dense]`), raise `fetch_k`, tune `weights` |
 | `RANKING_MISS` | It is in the candidate list but not in the top-k | Reranker: `rerank.type: cross_encoder` or `llm`, `section_boost: true`, or a larger `k` |
 | `RETRIEVED_OK` | The gold chunk *was* in the context, but the answer is still wrong | Not a retrieval problem: fix the prompt, context order (`order: sandwich`) or context size |
