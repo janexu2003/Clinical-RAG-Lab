@@ -1,0 +1,4 @@
+# Your v1 setup, but with BM25 so it runs offline (no model downloads, no API keys).
+name: offline_baseline
+corpus: {pdf: data/Medical_book.pdf, chunking: fixed, chunk_size: 500, overlap: 20}
+retrieval: {retrievers: [bm25], fetch_k: 30, k: 5}

@@ -1,0 +1,5 @@
+name: a7_hybrid_lsa
+corpus: {pdf: data/Medical_book.pdf, chunking: section, contextual_header: true}
+retrieval: {retrievers: [bm25, lsa], fetch_k: 30, k: 5}
+rerank: {section_boost: true}
+context: {neighbours: 1}

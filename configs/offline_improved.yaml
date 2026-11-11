@@ -1,0 +1,6 @@
+# Everything that works without an LLM or a downloaded model.
+name: offline_improved
+corpus: {pdf: data/Medical_book.pdf, chunking: section, chunk_size: 1000, overlap: 150, contextual_header: true}
+retrieval: {retrievers: [bm25], fetch_k: 30, k: 5}
+rerank: {type: none, section_boost: true}
+context: {neighbours: 1, order: relevance}

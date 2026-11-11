@@ -1,0 +1,14 @@
+pypdf>=4
+numpy
+scikit-learn
+rank_bm25
+pyyaml
+python-dotenv
+requests
+pytest
+# dense retrieval + cross-encoder reranking
+sentence-transformers>=3
+# OpenAI generation / judging (optional if you only use Ollama)
+openai>=1.30
+huggingface_hub      # download the MedRAG Textbooks corpus
+# optional: pip install pytrec-eval-terrier   (independent cross-check of BEIR metrics)

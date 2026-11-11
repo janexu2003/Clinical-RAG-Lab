@@ -1,0 +1,6 @@
+# + LLM query rewriting (MIRAGE questions are long clinical vignettes; a focused query can help)
+name: rag_bm25_rewrite
+mirage: {mode: rag, prompt: rag}
+retrieval: {retrievers: [bm25], fetch_k: 30, k: 8}
+query: {transforms: [rewrite], corpus_description: "medical textbooks (anatomy, physiology, pathology, pharmacology, internal medicine, ...)"}
+generation: {llm: "openai:gpt-4o-mini"}

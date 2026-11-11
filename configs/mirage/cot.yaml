@@ -1,0 +1,4 @@
+# No retrieval: what the model knows on its own (MedRAG's CoT baseline)
+name: cot
+mirage: {mode: cot}
+generation: {llm: "openai:gpt-4o-mini"}

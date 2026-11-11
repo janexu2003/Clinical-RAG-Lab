@@ -1,0 +1,54 @@
+{
+ "medqa": {
+  "0001": {
+   "question": "A 23-year-old presents with acne with cysts and nodules. Which drug is the treatment of choice?",
+   "options": {
+    "A": "Isotretinoin",
+    "B": "Aspirin",
+    "C": "Insulin",
+    "D": "Warfarin"
+   },
+   "answer": "A"
+  },
+  "0002": {
+   "question": "Which vitamin deficiency causes scurvy?",
+   "options": {
+    "A": "Vitamin A",
+    "B": "Vitamin C",
+    "C": "Vitamin D",
+    "D": "Vitamin K"
+   },
+   "answer": "B"
+  },
+  "0003": {
+   "question": "Which organ produces insulin?",
+   "options": {
+    "A": "Pancreas",
+    "B": "Liver",
+    "C": "Kidney",
+    "D": "Spleen"
+   },
+   "answer": "A"
+  }
+ },
+ "pubmedqa": {
+  "1": {
+   "question": "Does high sodium intake raise blood pressure?",
+   "options": {
+    "A": "yes",
+    "B": "no",
+    "C": "maybe"
+   },
+   "answer": "A"
+  },
+  "2": {
+   "question": "Is vitamin C deficiency linked to scurvy?",
+   "options": {
+    "A": "yes",
+    "B": "no",
+    "C": "maybe"
+   },
+   "answer": "A"
+  }
+ }
+}

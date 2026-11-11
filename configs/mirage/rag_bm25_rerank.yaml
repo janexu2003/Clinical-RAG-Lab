@@ -1,0 +1,6 @@
+# + cross-encoder reranking of the top 30 BM25 snippets
+name: rag_bm25_rerank
+mirage: {mode: rag, prompt: rag}
+retrieval: {retrievers: [bm25], fetch_k: 30, k: 8}
+rerank: {type: cross_encoder, model: cross-encoder/ms-marco-MiniLM-L-6-v2, top_n: 30}
+generation: {llm: "openai:gpt-4o-mini"}

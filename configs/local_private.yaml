@@ -1,0 +1,10 @@
+# Fully local: no data leaves the machine (relevant for patient data). Needs Ollama:
+#   ollama pull llama3.1:8b
+name: local_private
+corpus: {pdf: data/Medical_book.pdf, chunking: section, chunk_size: 1000, overlap: 150, contextual_header: true}
+retrieval: {retrievers: [bm25, dense], fetch_k: 30, k: 5}
+rerank: {type: cross_encoder, section_boost: true}
+context: {neighbours: 1}
+generation: {llm: "ollama:llama3.1:8b", prompt: grounded}
+hallucination: {checks: [offline, llm_claims], repair: true}
+eval: {judge_llm: "ollama:llama3.1:8b"}   # use a stronger judge if you can (see README)

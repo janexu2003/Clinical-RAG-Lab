@@ -1,0 +1,3 @@
+# BM25 only: the standard lexical baseline (compare with BEIR's published BM25 numbers)
+name: bm25
+retrieval: {retrievers: [bm25], fetch_k: 100, k: 10}

@@ -1,0 +1,14 @@
+# Recommended setup for a small medical corpus.
+name: improved
+corpus: {pdf: data/Medical_book.pdf, chunking: section, chunk_size: 1000, overlap: 150, contextual_header: true}
+retrieval:
+  retrievers: [bm25, dense]
+  dense_model: sentence-transformers/all-MiniLM-L6-v2
+  fetch_k: 30
+  k: 5
+query: {transforms: []}                 # try [rewrite], [multi_query], [hyde] in ablations
+rerank: {type: cross_encoder, model: cross-encoder/ms-marco-MiniLM-L-6-v2, section_boost: true}
+corrective: {enabled: true, max_retries: 1}
+context: {neighbours: 1, order: relevance, max_chars: 12000}
+generation: {llm: "openai:gpt-4o-mini", prompt: grounded}
+hallucination: {checks: [offline, llm_claims], repair: true}

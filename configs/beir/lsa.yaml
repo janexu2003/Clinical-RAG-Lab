@@ -1,0 +1,3 @@
+# Offline "semantic" stand-in (no model download). Expect it to be WORSE than BM25 alone.
+name: lsa
+retrieval: {retrievers: [lsa], fetch_k: 100, k: 10, lsa_dims: 256}

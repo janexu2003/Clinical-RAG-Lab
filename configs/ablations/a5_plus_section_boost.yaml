@@ -1,0 +1,4 @@
+name: a5_plus_section_boost
+corpus: {pdf: data/Medical_book.pdf, chunking: section, contextual_header: true}
+retrieval: {retrievers: [bm25], fetch_k: 30, k: 5}
+rerank: {section_boost: true}

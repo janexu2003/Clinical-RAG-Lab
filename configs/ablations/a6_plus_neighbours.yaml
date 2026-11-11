@@ -1,0 +1,5 @@
+name: a6_plus_neighbours
+corpus: {pdf: data/Medical_book.pdf, chunking: section, contextual_header: true}
+retrieval: {retrievers: [bm25], fetch_k: 30, k: 5}
+rerank: {section_boost: true}
+context: {neighbours: 1}

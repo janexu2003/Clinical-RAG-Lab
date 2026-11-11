@@ -1,0 +1,11 @@
+# Rerank ablation: identical to configs/improved.yaml except the rerank line.
+# Run with --retrieval-only (no LLM calls, no API cost).
+name: r1_section_boost
+corpus: {pdf: data/Medical_book.pdf, chunking: section, chunk_size: 1000, overlap: 150, contextual_header: true}
+retrieval:
+  retrievers: [bm25, dense]
+  dense_model: sentence-transformers/all-MiniLM-L6-v2
+  fetch_k: 30
+  k: 5
+rerank: {type: none, model: cross-encoder/ms-marco-MiniLM-L-6-v2, section_boost: true}
+context: {neighbours: 1, order: relevance, max_chars: 12000}

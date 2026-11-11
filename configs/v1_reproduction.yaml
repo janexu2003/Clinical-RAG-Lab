@@ -1,0 +1,6 @@
+# Your original chatbot, reproduced: 500-char page chunks, MiniLM dense only, k=3, original prompt.
+name: v1_reproduction
+corpus: {pdf: data/Medical_book.pdf, chunking: fixed, chunk_size: 500, overlap: 20}
+retrieval: {retrievers: [dense], dense_model: sentence-transformers/all-MiniLM-L6-v2, fetch_k: 3, k: 3}
+generation: {llm: "openai:gpt-4o-mini", prompt: v1_original}
+hallucination: {checks: [offline, llm_claims], repair: false}   # measure only, don't fix

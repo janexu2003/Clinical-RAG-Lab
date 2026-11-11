@@ -1,0 +1,5 @@
+# RAG over the MedRAG Textbooks corpus with BM25 (fast to index: no embeddings)
+name: rag_bm25
+mirage: {mode: rag, prompt: rag}
+retrieval: {retrievers: [bm25], fetch_k: 30, k: 8}
+generation: {llm: "openai:gpt-4o-mini"}

@@ -1,0 +1,397 @@
+[
+ {
+  "id": "orig-01",
+  "question": "What is an abdominal ultrasound?",
+  "category": "textbook_wording",
+  "gold_pages": [
+   14
+  ],
+  "reference_answer": "Abdominal ultrasound is an imaging technique that sends high-frequency sound waves into the body. The waves reflect from tissues and organs as echoes, which are processed by a computer to create an image. It is particularly useful for imaging soft and fluid-filled structures in the abdomen.",
+  "in_scope": true,
+  "source": "original notebook"
+ },
+ {
+  "id": "orig-02",
+  "question": "What conditions can abdominal ultrasound be used to investigate?",
+  "category": "textbook_wording",
+  "gold_pages": [
+   14,
+   15
+  ],
+  "reference_answer": "Abdominal ultrasound can be used to investigate abdominal pain or trauma, abdominal masses, liver and pancreatic disease, gallstones, spleen disease, kidney disease, urinary blockage, and abdominal aortic aneurysm.",
+  "in_scope": true,
+  "source": "original notebook"
+ },
+ {
+  "id": "orig-03",
+  "question": "How should a patient prepare for an abdominal ultrasound?",
+  "category": "textbook_wording",
+  "gold_pages": [
+   18
+  ],
+  "reference_answer": "Preparation generally includes fasting and, when necessary, arriving with a full bladder. This can be particularly useful when the gallbladder, ovaries, or veins are being examined.",
+  "in_scope": true,
+  "source": "original notebook"
+ },
+ {
+  "id": "orig-04",
+  "question": "What is an abscess?",
+  "category": "textbook_wording",
+  "gold_pages": [
+   25
+  ],
+  "reference_answer": "An abscess is an enclosed collection of liquefied tissue, known as pus, somewhere in the body. It results from the body's defensive reaction to foreign material.",
+  "in_scope": true,
+  "source": "original notebook"
+ },
+ {
+  "id": "orig-05",
+  "question": "What are the four signs of inflammation associated with an abscess?",
+  "category": "textbook_wording",
+  "gold_pages": [
+   26
+  ],
+  "reference_answer": "The four signs of inflammation described are heat, swelling, redness, and pain.",
+  "in_scope": true,
+  "source": "original notebook"
+ },
+ {
+  "id": "orig-06",
+  "question": "How is an abscess generally treated?",
+  "category": "textbook_wording",
+  "gold_pages": [
+   27
+  ],
+  "reference_answer": "An abscess generally needs to be drained. A physician opens a path that allows the pus to escape, and antibiotics or other drugs may sometimes be used to help treat the remaining infection. A drain may be left in the cavity to prevent it from closing before drainage is complete.",
+  "in_scope": true,
+  "source": "original notebook"
+ },
+ {
+  "id": "orig-07",
+  "question": "What is acne?",
+  "category": "textbook_wording",
+  "gold_pages": [
+   37
+  ],
+  "reference_answer": "Acne is a common skin disease characterized by pimples on the face, chest, and back. It occurs when skin pores become clogged with oil, dead skin cells, and bacteria.",
+  "in_scope": true,
+  "source": "original notebook"
+ },
+ {
+  "id": "orig-08",
+  "question": "How does acne develop?",
+  "category": "textbook_wording",
+  "gold_pages": [
+   37
+  ],
+  "reference_answer": "Increased androgen levels can cause sebaceous glands to produce excess sebum. When excess sebum combines with dead skin cells, it can form a comedo that blocks a pore. Inflammatory acne can develop when the plugged follicle is invaded by Propionibacterium acnes and the follicle becomes damaged and inflamed.",
+  "in_scope": true,
+  "source": "original notebook"
+ },
+ {
+  "id": "orig-09",
+  "question": "How is acne diagnosed?",
+  "category": "textbook_wording",
+  "gold_pages": [
+   38
+  ],
+  "reference_answer": "Acne is usually diagnosed from its characteristic appearance. A doctor takes a medical history and examines affected areas to determine the types and number of blemishes, inflammation, depth, scarring, and discoloration. Laboratory tests are generally unnecessary unless a hormonal disorder or another medical problem is suspected.",
+  "in_scope": true,
+  "source": "original notebook"
+ },
+ {
+  "id": "orig-10",
+  "question": "What are the main goals of acne treatment?",
+  "category": "textbook_wording",
+  "gold_pages": [
+   38
+  ],
+  "reference_answer": "Acne treatment aims to reduce sebum production, remove dead skin cells, and kill bacteria using topical drugs and oral medications. Treatment depends on whether the acne is mild, moderate, or severe.",
+  "in_scope": true,
+  "source": "original notebook"
+ },
+ {
+  "id": "orig-11",
+  "question": "What is acromegaly?",
+  "category": "textbook_wording",
+  "gold_pages": [
+   45
+  ],
+  "reference_answer": "Acromegaly is a disorder involving excessive growth hormone in an adult, producing enlargement of body tissues and characteristic changes in physical features.",
+  "in_scope": true,
+  "source": "original notebook"
+ },
+ {
+  "id": "orig-12",
+  "question": "What causes acromegaly?",
+  "category": "textbook_wording",
+  "gold_pages": [
+   45,
+   46
+  ],
+  "reference_answer": "Acromegaly is usually caused by excessive production of growth hormone associated with a pituitary tumor.",
+  "in_scope": true,
+  "source": "original notebook"
+ },
+ {
+  "id": "orig-13",
+  "question": "What are the major causes of anemia?",
+  "category": "textbook_wording",
+  "gold_pages": [
+   195
+  ],
+  "reference_answer": "Anemia can result from bleeding, decreased red blood cell production, or increased red blood cell destruction. Poor diet can contribute to vitamin- and iron-deficiency anemia, while hereditary disorders and certain diseases can increase red blood cell destruction.",
+  "in_scope": true,
+  "source": "original notebook"
+ },
+ {
+  "id": "orig-14",
+  "question": "What are common symptoms of anemia?",
+  "category": "textbook_wording",
+  "gold_pages": [
+   195
+  ],
+  "reference_answer": "Common symptoms include weakness, fatigue, a run-down feeling, pale or sallow skin, shortness of breath, faintness, and dizziness. Other symptoms may include headache, difficulty concentrating, irregular heartbeat, rapid breathing, and loss of appetite.",
+  "in_scope": true,
+  "source": "original notebook"
+ },
+ {
+  "id": "orig-15",
+  "question": "How is anemia diagnosed?",
+  "category": "textbook_wording",
+  "gold_pages": [
+   196
+  ],
+  "reference_answer": "Diagnosis can involve personal and family health history and laboratory tests measuring the percentage of red blood cells or the amount of hemoglobin in the blood. X-rays and bone marrow examinations may also be used to identify the source of bleeding.",
+  "in_scope": true,
+  "source": "original notebook"
+ },
+ {
+  "id": "new-01",
+  "question": "How do doctors tell if someone has acne?",
+  "category": "lay_wording",
+  "gold_pages": [
+   38
+  ],
+  "reference_answer": "Acne has a characteristic appearance and is not difficult to diagnose. The doctor takes a medical history (skin care, diet, flare-up factors, medications, prior treatment) and examines the face, upper neck, chest, shoulders and back.",
+  "in_scope": true,
+  "key_phrase": "not difficult to diagnose",
+  "source": "written from the book text (please review)"
+ },
+ {
+  "id": "new-02",
+  "question": "What is the main treatment for a lazy eye?",
+  "category": "lay_wording",
+  "gold_pages": [
+   155
+  ],
+  "reference_answer": "The primary treatment for amblyopia is occlusion therapy: patching, alternating between the good eye and the amblyopic eye; eye exercises may also be prescribed.",
+  "in_scope": true,
+  "key_phrase": "primary treatment for amblyopia is occlusion therapy",
+  "source": "written from the book text (please review)"
+ },
+ {
+  "id": "new-03",
+  "question": "What treatments are used for children who wet the bed?",
+  "category": "lay_wording",
+  "gold_pages": [
+   468
+  ],
+  "reference_answer": "Standard treatments include bladder training exercises, motivational therapy, drug therapy, psychotherapy and diet therapy.",
+  "in_scope": true,
+  "key_phrase": "bladder training exercises, motivational therapy",
+  "source": "written from the book text (please review)"
+ },
+ {
+  "id": "new-04",
+  "question": "What causes a painful bump at the base of the big toe?",
+  "category": "lay_wording",
+  "gold_pages": [
+   627
+  ],
+  "reference_answer": "This is a bunion: an enlargement of the joint at the base of the big toe caused by inflammation, usually from chronic irritation and pressure from poorly fitting footwear.",
+  "in_scope": true,
+  "key_phrase": "poorly fitting footwear",
+  "source": "written from the book text (please review)"
+ },
+ {
+  "id": "new-05",
+  "question": "What is eczema?",
+  "category": "lay_wording",
+  "gold_pages": [
+   416
+  ],
+  "reference_answer": "Eczema is a general term for conditions that cause an itchy, inflamed skin rash; atopic dermatitis is a non-contagious form with chronically inflamed skin and intense itching.",
+  "in_scope": true,
+  "key_phrase": "itchy, inflamed skin rash",
+  "source": "written from the book text (please review)"
+ },
+ {
+  "id": "new-06",
+  "question": "Is it okay to squeeze a boil?",
+  "category": "lay_wording",
+  "gold_pages": [
+   550
+  ],
+  "reference_answer": "No. Patients should not pick at or squeeze boils because the infection can spread to other parts of the skin or the bloodstream; boils around the mouth or nose are especially dangerous because infection can be carried to the brain.",
+  "in_scope": true,
+  "key_phrase": "squeezing boils",
+  "source": "written from the book text (please review)"
+ },
+ {
+  "id": "new-07",
+  "question": "How long are oral antibiotics taken for acne?",
+  "category": "numeric",
+  "gold_pages": [
+   38
+  ],
+  "reference_answer": "Oral antibiotics are taken daily for two to four months.",
+  "in_scope": true,
+  "key_phrase": "Oral antibiotics are taken daily for two to four months",
+  "source": "written from the book text (please review)"
+ },
+ {
+  "id": "new-08",
+  "question": "For how long is isotretinoin taken for severe acne, and what share of patients get long-term control?",
+  "category": "numeric",
+  "gold_pages": [
+   39
+  ],
+  "reference_answer": "It is taken for four to five months and provides long-term disease control in up to 60% of patients.",
+  "in_scope": true,
+  "key_phrase": "up to 60% of patients",
+  "source": "written from the book text (please review)"
+ },
+ {
+  "id": "new-09",
+  "question": "What percentage of fetuses start labor in the breech position?",
+  "category": "numeric",
+  "gold_pages": [
+   607
+  ],
+  "reference_answer": "Between 3 and 4% of fetuses start labor in the breech position.",
+  "in_scope": true,
+  "key_phrase": "3-4% of fetuses",
+  "source": "written from the book text (please review)"
+ },
+ {
+  "id": "new-10",
+  "question": "How long does hospital treatment for anorexia nervosa usually take?",
+  "category": "numeric",
+  "gold_pages": [
+   226
+  ],
+  "reference_answer": "Treatment usually requires two to four months in the hospital.",
+  "in_scope": true,
+  "key_phrase": "two to four months in the hospital",
+  "source": "written from the book text (please review)"
+ },
+ {
+  "id": "new-11",
+  "question": "Which foods cause acne?",
+  "category": "false_premise",
+  "gold_pages": [
+   37
+  ],
+  "reference_answer": "According to the source, no foods cause acne, although certain foods may cause flare-ups.",
+  "in_scope": true,
+  "key_phrase": "No foods cause acne",
+  "source": "written from the book text (please review)"
+ },
+ {
+  "id": "new-12",
+  "question": "What important function does the appendix perform in the body?",
+  "category": "false_premise",
+  "gold_pages": [
+   354
+  ],
+  "reference_answer": "The source says the appendix has no known function in the body, although it can become diseased.",
+  "in_scope": true,
+  "key_phrase": "no known function",
+  "source": "written from the book text (please review)"
+ },
+ {
+  "id": "new-13",
+  "question": "What are the risk factors for acne and how is severe acne treated?",
+  "category": "multi_part",
+  "gold_pages": [
+   37,
+   38,
+   39
+  ],
+  "reference_answer": "Risk factors include age (teenagers), gender, hormonal disorders, heredity, hormonal changes, diet-related flare-ups, drugs and cosmetics. Severe acne with cysts and nodules is treated with oral isotretinoin (Accutane), with or without antibiotics.",
+  "in_scope": true,
+  "key_phrase": "treatment of choice for severe acne",
+  "source": "written from the book text (please review)"
+ },
+ {
+  "id": "new-14",
+  "question": "Why is appendicitis an emergency and how is it diagnosed?",
+  "category": "multi_part",
+  "gold_pages": [
+   354,
+   355
+  ],
+  "reference_answer": "Untreated, the appendix may rupture and cause a potentially fatal infection. Diagnosis relies on careful questioning about the pain and a thorough physical examination.",
+  "in_scope": true,
+  "key_phrase": "careful examination is the best way to diagnose appendicitis",
+  "source": "written from the book text (please review)"
+ },
+ {
+  "id": "new-15",
+  "question": "Why should the patch be alternated between the eyes when treating amblyopia?",
+  "category": "reasoning",
+  "gold_pages": [
+   155
+  ],
+  "reference_answer": "If the good eye is constantly patched it may also become amblyopic from disuse, so patching is alternated.",
+  "in_scope": true,
+  "key_phrase": "because of disuse",
+  "source": "written from the book text (please review)"
+ },
+ {
+  "id": "oos-01",
+  "question": "What are the common symptoms of COVID-19?",
+  "category": "out_of_scope",
+  "gold_pages": [],
+  "reference_answer": "NOT_IN_DOCUMENTS",
+  "in_scope": false,
+  "source": "verified absent from corpus"
+ },
+ {
+  "id": "oos-02",
+  "question": "How does semaglutide help with weight loss?",
+  "category": "out_of_scope",
+  "gold_pages": [],
+  "reference_answer": "NOT_IN_DOCUMENTS",
+  "in_scope": false,
+  "source": "verified absent from corpus"
+ },
+ {
+  "id": "oos-03",
+  "question": "What is long QT syndrome?",
+  "category": "out_of_scope",
+  "gold_pages": [],
+  "reference_answer": "NOT_IN_DOCUMENTS",
+  "in_scope": false,
+  "source": "verified absent from corpus"
+ },
+ {
+  "id": "oos-04",
+  "question": "How is mpox (monkeypox) transmitted?",
+  "category": "out_of_scope",
+  "gold_pages": [],
+  "reference_answer": "NOT_IN_DOCUMENTS",
+  "in_scope": false,
+  "source": "verified absent from corpus"
+ },
+ {
+  "id": "oos-05",
+  "question": "What are the risks of Zika virus infection during pregnancy?",
+  "category": "out_of_scope",
+  "gold_pages": [],
+  "reference_answer": "NOT_IN_DOCUMENTS",
+  "in_scope": false,
+  "source": "verified absent from corpus"
+ }
+]

@@ -1,0 +1,4 @@
+# Hybrid candidates, cross-encoder reranks the top 100
+name: hybrid_rerank
+retrieval: {retrievers: [bm25, dense], dense_model: sentence-transformers/all-MiniLM-L6-v2, fetch_k: 100, k: 10}
+rerank: {type: cross_encoder, model: cross-encoder/ms-marco-MiniLM-L-6-v2, top_n: 100}

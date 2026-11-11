@@ -1,0 +1,9 @@
+# Same as improved, but the model must quote its evidence verbatim before answering.
+name: quote_then_answer
+corpus: {pdf: data/Medical_book.pdf, chunking: section, chunk_size: 1000, overlap: 150, contextual_header: true}
+retrieval: {retrievers: [bm25, dense], fetch_k: 30, k: 5}
+rerank: {type: cross_encoder, section_boost: true}
+corrective: {enabled: true, max_retries: 1}
+context: {neighbours: 1}
+generation: {llm: "openai:gpt-4o-mini", prompt: quote_then_answer}
+hallucination: {checks: [offline, llm_claims], repair: true}

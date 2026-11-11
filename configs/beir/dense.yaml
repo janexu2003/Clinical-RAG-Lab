@@ -1,0 +1,2 @@
+name: dense_minilm
+retrieval: {retrievers: [dense], dense_model: sentence-transformers/all-MiniLM-L6-v2, fetch_k: 100, k: 10}
